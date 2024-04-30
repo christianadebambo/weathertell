@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Christian Adebambo - S2111002-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/card_background"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_weathertell"
+        android:contentDescription="@string/weather_icon_description"
+        app:tint="@color/background_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WeatherTell"
+        android:textSize="40sp"
+        android:textColor="@color/background_color"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif-medium"/>
+
+</LinearLayout>

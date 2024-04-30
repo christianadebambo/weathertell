@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Christian Adebambo - S2111002-->
+<resources>
+    <style name="WeatherForecastTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="WeatherForecastDetails" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+</resources>
